@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    z-index: 0;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+
+.juegos-destacados{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.juegos-destacados .card{
+    width: 16rem;
+    height: auto;
+    margin: .7rem;
+    border: 1px solid black;
+}
+
+.juegos-destacados .card img{
+    width: 100%;
+    height: 14rem;
+    object-fit: cover;
+}
+
+.juegos-destacados .card a{
+    margin: 0 auto;
+    display: block;
+}
